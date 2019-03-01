@@ -1,0 +1,43 @@
+
+.conteneur {
+  border: 1px dotted #666;
+  background-color: tomato;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
+  justify-content: space-around;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.conteneur section {
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: gold;
+  padding: .6em;
+}
+
+#quatre {
+  justify-self: stretch;
+  align-self: stretch;
+}
+
+#quatre ul{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:5px;
+  height: 100%;
+  justify-items: stretch;
+  align-items: stretch;
+  padding : 0;
+  margin: 0;
+
+}
+
+li {
+  background-color: rebeccapurple;
+  padding : 0;
+}

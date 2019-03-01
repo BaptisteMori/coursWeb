@@ -1,0 +1,55 @@
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  color: green;
+  padding: 2px;
+}
+
+h2{
+  color: white;
+  background-color: green;
+  padding: 10px;
+  font-style: italic;
+  padding-left: 100px;
+}
+
+ol li{
+  border: 1px green solid;
+  padding: 10px;
+  margin : 10px;
+  background-color: orange;
+  list-style-type: upper-latin;
+}
+
+img {
+  vertical-align: middle;
+}
+
+em {
+  color : brown;
+  font-style: normal;
+}
+
+strong {
+  color: green;
+  font-weight: normal;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+u {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  font-style: italic;
+}

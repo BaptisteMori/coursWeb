@@ -1,0 +1,53 @@
+body {
+  width:40em
+}
+
+p::first-letter{
+  font-size: 2em
+}
+
+p:last-of-type{
+  text-align: center;
+}
+
+p:hover{
+  color: rebeccapurple;
+}
+
+p:hover em{
+  text-decoration: underline;
+}
+
+p:hover,p:hover + p{
+  background-color: #bc92e6
+}
+
+h2 + p::first-line{
+  font-style: italic;
+}
+
+h2:nth-of-type(odd){
+  text-align: right;
+}
+
+h2::before, h2::after{
+  content: "❦";
+  color: red;
+}
+
+h2:active{
+  border: 3px solid rebeccapurple;
+  text-align: center;
+}
+
+h2:not(:hover){
+  font-variant: small-caps;
+}
+
+h2:hover~p{
+  background-color: orange
+}
+
+h2:hover ~ h2 ~ p{
+  background-color: white;
+}

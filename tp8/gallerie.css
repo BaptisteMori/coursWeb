@@ -1,0 +1,16 @@
+h2 {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  vertical-align: middle;
+}

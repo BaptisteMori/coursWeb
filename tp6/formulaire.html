@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>formulaire</title>
+  </head>
+  <body>
+    <section>
+      <form action="multiplication.php" method="post">
+        <label>
+          Taille de la table :
+          <input type="text" name="borne" placeholder="borne"/>
+        </label>
+        <input type="submit" name="" value="borne">
+      </form>
+    </section>
+    <section>
+      <form action="recup.php" method="post">
+        <label>Votre nom <input type="text" name="nom"></label>
+        <fieldset>
+          <legend>Les langues que vous parlez</legend>
+          <label>
+            <input type="checkbox" name="langue[]" value="français">
+            français
+          </label>
+          <label>
+            <input type="checkbox" name="langue[]" value="anglais">
+            anglais
+          </label>
+          <label>
+            <input type="checkbox" name="langue[]" value="allemand">
+            allemand
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Votre couleur préférée</legend>
+          <label>
+            <input type="radio" name="couleur" value="tomato" checked="true">
+            rouge
+          </label>
+          <label>
+            <input type="radio" name="couleur" value="navy">
+            bleu
+          </label>
+          <label>
+            <input type="radio" name="couleur" value="yellowgreen">
+            vert
+          </label>
+        </fieldset>
+        <input type="submit" name="" value="Envoyer">
+      </form>
+    </section>
+  </body>
+</html>

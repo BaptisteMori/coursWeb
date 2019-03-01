@@ -1,0 +1,59 @@
+nav {
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  width : 60%;
+}
+
+.vertical nav{
+  width:30%;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+ul {
+  border:1px solid #008bff;
+  padding-left: 1px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.vertical li {
+  border: 1px solid #008bff;
+  border-left: 4px solid #008bff;
+  margin: 2px;
+  background-color: rgba(0, 130, 250, 0.1);
+  text-align: left;
+}
+
+.vertical a{
+  margin-left: 4px;
+}
+
+.horizontal nav{
+  width:55%;
+}
+
+.horizontal li {
+  display: inline-block;
+  padding-bottom: 1px;
+}
+
+.horizontal li :hover{
+  color: #FFF;
+  background-color: blue;
+}
+
+.horizontal a {
+  padding:2px;
+}
+
+a:visited{
+  color:blue;
+}

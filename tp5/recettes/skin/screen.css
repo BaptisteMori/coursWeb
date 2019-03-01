@@ -1,0 +1,68 @@
+header{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+h1{
+  display:inline-block;
+  font-size: 3em;
+}
+
+#content{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+nav{
+  width:400px;
+  padding-top: 20%;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+li{
+  list-style-type: none;
+}
+
+main{
+  order: 2;
+  border: 1px solid black;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  padding-top: 60px;
+}
+
+footer ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer li{
+  display:inline;
+  text-align: center;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.w3c{
+  background-image: url("img/logoW3C.png");
+}
+
+.firefox{
+  background-image:  url("img/logoFirefox.png");
+}
+
+.ubuntu{
+  background-image: url("img/logoUbuntu.png");
+}
+
+.nottice{
+  padding:60px;
+  background: url("img/logoCC-by-nc-sa.png") no-repeat top center;
+}

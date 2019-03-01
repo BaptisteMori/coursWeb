@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A</title>
+    <script type="text/javascript">
+      function saluer(){
+        console.log("hello world");
+      }
+    </script>
+  </head>
+  <body>
+    <p>Ouvrir la console pour voir le résultat</p>
+    <script>
+    "use strict";
+
+    //alert("Hello, world!");
+    console.log("Im in ur console");
+    let x = 100;
+    for (let i = 0; i < x; i++) {
+      saluer();
+    }
+    setTimeout(saluer,3000);
+    setTimeout(function(){console.log("bonjour");},5000);
+    </script>
+  </body>
+</html>

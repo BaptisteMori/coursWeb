@@ -1,0 +1,57 @@
+body{
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.wrapper{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 180px auto 20em;
+}
+
+
+@media (max-width : 1000px) {
+  .wrapper{
+    height: auto;
+  }
+
+  .main-text{
+    grid-column: span 2;
+  }
+
+  .info{
+    grid-column: span 3;
+  }
+}
+
+@media (max-width : 768px) {
+
+  .wrapper{
+    grid-template-columns: 100%;
+  }
+
+  .main-text{
+    grid-column: span 3;
+  }
+
+  .menu {
+    grid-column: span 3;
+  }
+  .menu li{
+    display: inline-block;
+  }
+}
+
+@media (max-width : 400px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu::before {
+    content: "M";
+    position: fixed;
+    top:0;
+  }
+}
